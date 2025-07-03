@@ -5,5 +5,5 @@ k = cv2.waitKey(0)
 if k == 27:
     cv2.destroyAllWindows()
 elif k == ord('s'):
-    cv2.imwrite('test01gray000.png',img)
+    cv2.imwrite('test01gray.png',img)
     cv2.destroyAllWindows()
