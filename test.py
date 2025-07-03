@@ -3,9 +3,7 @@ img = cv2.imread('balloons.jpeg',0)
 cv2.imshow('image',img)
 k = cv2.waitKey(0)
 if k == 27:
-    pass
-    # cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
 elif k == ord('s'):
     cv2.imwrite('test01gray000.png',img)
-    # cv2.destroyAllWindows()hjvkj
-    jhbljhblhblhblin;ojnokm
+    cv2.destroyAllWindows()
